@@ -106,7 +106,9 @@ https://templatemo.com/tm-546-sixteen-clothing
               <h4>Validation du nouveau mot de passe</h4>
               <input type="password" id = "password" name="password" placeholder="Confirmez votre mot de passe" />
               <br><br><br>
-              <button type="submit">Valider</button>
+              <form onsubmit="return validerForm()">
+                <button type="submit">Valider</button>
+              </form>
             </div>
           </div>
         </div>
